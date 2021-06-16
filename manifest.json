@@ -1,0 +1,41 @@
+{
+
+  "name": "Shopanaut -Future of shopping",
+
+  "short_name": "Shopanaut",
+
+  "start_url": "index.html",
+
+  "scope": "./",
+
+  "icons": [
+
+    {
+
+      "src": "196logo.png",
+
+      "sizes": "192x192",
+
+      "type": "image/png"
+
+    },
+
+    {
+
+      "src": "114logo.png",
+
+      "sizes": "512x512",
+
+      "type": "image/png"
+
+    }
+
+  ],
+
+  "theme_color": "darkskyblue",
+
+  "background_color": "hotpink",
+
+  "display": "standalone"
+
+}
