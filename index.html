@@ -1,188 +1,118 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
+  <meta name="title" content="Shopanaut">
+<meta name="description" content="Best deals from best sites like Amazon, Flipkart, Nykaa, Myntra, ShopClues, Jabong and many more. Upto 80% off with Coupons and Offers. Massive Savings with Excusive discounts. Best site to Shop online. Get best discounts today. ">
+<meta name="keywords" content="Discounts, Coupons, Deals, Sale, Amazon big billion day, Amazon sale, Flipkart discounts, Flipkart coupons, Amazon coupons, Amazon Discounts, Flipkart discounts">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
 
   <link rel="manifest" href="/manifest.json">
-
   <link rel="preconnect" href="https://fonts.gstatic.com">
-
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Modak&display=swap" rel="stylesheet">
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title></title>
-
      <link rel="stylesheet" href=
-
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <script src="jquery-1.10.2.min.js"></script>
-
   <script type="text/javascript" src="test.js"></script>
 
-    <script src="service-worker.js"></script>
-
+   
+    
+  <link rel="stylesheet" href="Test.css">
+    
     
 
-    <link rel="stylesheet" href="Test.css">
-
-    
-
-    <link rel="manifest" href="manifest.json">
-
-    
+  
+    <title>Shopanaut - Best offers from Amazon, flipkart. Coupons and Offers </title>
+  
 
 </head>
 
 <body>
-
   
 
     
-
   <a class="myText" id="color1"><h1>Shopanaut</h1></a>
-
   
 
    <style>
 
          
-
         /* styling navlist */
-
         #navlist {
-
             background-color: #06516A;
-
             position: absolute;
-
             width: 100%;
-
-            z-index: 6;
-
+            z-index: 8;
         }
-
         /* styling navlist anchor element */
-
         #navlist a {
-
             float:left;
-
             display: block;
-
             color: #f6d2e0;
-
             text-align: center;
-
             padding: 12px;
-
             text-decoration: none;
-
             font-size: 15px;
-
         }
-
         .navlist-right{
-
             float:right;
-
         }
-
         /* hover effect of navlist anchor element */
-
         #navlist a:hover {
-
             background-color: hotpink;
-
             color: deepskyblue;
-
         }
-
          
-
         /* styling search bar */
-
         .search input[type=text]{
-
             width:300px;
-
             height:25px;
-
             border-radius:25px;
-
             border: none;
-
         }
-
         
-
         .search{
-
             float:right;
-
             margin:7px;
-
         }
 
         .search button{
-
             background-color: transparent;
-
             color: #f6d2e0;
-
             float: right;
-
             padding: 5px 10px;
-
             font-size: 12px;
-
             border: none;
-
             cursor: pointer;
-
         } 
-
 footer{
-
   text-align: center;
-
   position: fixed;
-
   background: lightblue;
-
   color: lightpink;
-
   width: 100%;
-
   height: 5em;
-
   bottom: 0;
-
   font-size: 6px;
-
   padding: 6px;
-
   z-index: 3;
-
   
-
 }
-
 footer a{
-
   color: lightpink;
-
   background: lightblue;
-
 }
-
     </style>
 
+
  
+
+
 
      
 
@@ -195,6 +125,7 @@ footer a{
         <a href="#">Daily</a>
 
         <a href="#">Cloathing</a>
+
 
         
 
@@ -213,13 +144,9 @@ footer a{
                     name="search">
 
                 <button>
-
                      <i class="fa fa-search"
-
                         style="font-size: 18px;">
-
                     </i>
-
                 </button>
 
             </form>
@@ -227,50 +154,64 @@ footer a{
         </div>
 
  </div>
+ <div class="grid">
+  <div class="site">Amazon | Flipkart | Adidas | CoolWinks | fristcry | Zoomcar | Zivame | ShopClues | Zomato | Swiggy</div>
+  
+</div>
+
+
 
  
-
+ 
+ 
     <footer>
-
       <p>RedFlower &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved</p>
 
       <a href="mailto: luceferreddy@gmail.com">Contact</a>
-
+      <a href="terms.html">Terms and Conditions</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="about.html">About</a>
     </footer>
-
 </body>
-
-<script>
-
- 
-
+  <style>
+    footer{
+      height: 60px;
+      padding: 3px;
+      font-weight: 900;
+      color: white;
+      background: transparent;
+    }
+    .links{
+         position: absolute;
+         bottom: 60px;
+         background: transparent;
+         align-content: center;
+         opacity: 60%;
+         z-index: 15;
+         }
     
+  .grid{
+    font-size: 9px;
+    padding: 1px;
+    width: 100%;
+    height: auto;
+    z-index: 40;
+    position: absolute;
+    bottom: 60px;
+    overflow: hidden;
+    background: linear-gradient(hotpink, deepskyblue);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+  .site{
+    opacity: 45%;
+    font-weight: 900;
+    width: auto;
+    color: white;
+    text-align: center;
+  }
+  
+  </style>
 
- 
-
- if ('serviceWorker' in navigator) {
-
-  window.addEventListener('load', function() {
-
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-
-      // Registration was successful
-
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-
-    }, function(err) {
-
-      // registration failed :(
-
-      console.log('ServiceWorker registration failed: ', err);
-
-    });
-
-  });
-
-}
-
-</script>
 
 </html>
-
