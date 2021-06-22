@@ -4,6 +4,8 @@
 <head>
   <meta name="title" content="Shopanaut">
 <meta name="description" content="Best deals from best sites like Amazon, Flipkart, Nykaa, Myntra, ShopClues, Jabong and many more. Upto 80% off with Coupons and Offers. Massive Savings with Excusive discounts. Best site to Shop online. Get best discounts today. ">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -39,38 +41,120 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 
-<body>
+<body onload="onload()">
+  <div class="notice">
+    Install our Web app now! <button><i class="fa fa-download" aria-hidden="true"></i></button>
+  </div>
   
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFTW3RH"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     
+    
+    
   <a class="myText" id="color1"><h1>Shopanaut</h1></a>
   
+<div class="imgbar">
+  <img src="https://source.unsplash.com/featured?shopping" width="100%" height
+="400px">
+<div class="centered">WELCOME TO SHOPANAUT</div>
+</div>
+<script>
+  var url;
+  function onload() {
+    url = document.getElementById('linkUrl');
+  }
+  function search() {
+    console.log(url.value);
+  }
+</script>
+<div id="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">Amazon</a>
+  <a href="#contact">Flipkart</a><div class="search">
+            <form action="#">
+                <input id="linkUrl" type="text"
+                    placeholder="Paste Link"
+                    name="search">
+                <button id="searcBtn" value="click" onclick="search()">
+                     <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                </button>
 
-   <style>
+            </form>
 
-         
-        /* styling navlist */
+        </div>
+</div>
+
+<br>
+
+
+ <br>
+ <div class="products">
+ <iframe src='https://inrdeals.com/embed/deals?user=luc430941715' width='100%' height='1140' frameborder='0' allowTransparency='true'> </iframe>
+ </div>
+ 
+
+</div>
+
+
+
+ 
+ 
+ 
+    <footer>
+      <p>RedFlower &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved</p>
+
+      <a href="mailto: luceferreddy@gmail.com">Contact</a>
+      <a href="terms.html">Terms and Conditions</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="about.html">About</a>
+    </footer>
+    <style>
+    
+      .imgbar {
+        position: relative;
+        text-align: center;
+        color: white;
+        background: linear-gradient(deepskyblue, lightblue)
+        
+}
+.imgbar img{
+  opacity: 45%;
+}
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 42px;
+  font-weight: 900;
+  font-family: sans-serif;
+ }    
+      /* styling navlist */
         #navlist {
-            background-color: #06516A;
-            position: absolute;
+            position: initial;
             width: 100%;
-            z-index: 8;
+        }
+        .navbar{
+          background: white;
+          overflow: auto;
         }
         /* styling navlist anchor element */
         #navlist a {
             float:left;
             display: block;
-            color: #f6d2e0;
+          
             text-align: center;
             padding: 12px;
             text-decoration: none;
             font-size: 15px;
         }
         .navlist-right{
-            float:right;
+            float: left;
+            overflow: auto;
         }
         /* hover effect of navlist anchor element */
         #navlist a:hover {
@@ -93,135 +177,171 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         .search button{
             background-color: transparent;
-            color: #f6d2e0;
+            color: hotpink;
             float: right;
             padding: 5px 10px;
             font-size: 12px;
             border: none;
             cursor: pointer;
+            
+         
         } 
-footer{
-  text-align: center;
-  position: fixed;
-  background: lightblue;
-  color: lightpink;
-  width: 100%;
-  height: 5em;
-  bottom: 0;
-  font-size: 6px;
-  padding: 6px;
-  z-index: 3;
-  
-}
-footer a{
-  color: lightpink;
-  background: lightblue;
-}
-    </style>
-
-
- 
-
-
-
-     
-
-    <!-- Navbar items -->
-
- <div id="navlist">
-
-        <a href="#">Electronics</a>
-
-        <a href="#">Daily</a>
-
-        <a href="#">Cloathing</a>
-
-
         
+        .products{
+          z-index: 100;
+        }
+    </style>
+    
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                        <script type="text/javascript" >
+                            var subID = 'luc430941715';
+                            (function(d, t) {
+                                var script   = document.createElement("script");script.type  = "text/javascript";
+                                script.async = true;script.src   = (document.location.protocol == 'https:' ? 'https://cdn.jsdelivr.net/gh/inrdeals/inrdeals-js@latest/' : 'http://cdn.jsdelivr.net/gh/inrdeals/inrdeals-js@latest/')  + 'inrdeals.js';
+                                document.body.appendChild(script);
+                            }());
+                        </script>
+        <script type='text/javascript'>(function() {var script=document.createElement(&quot;script&quot;);script.type=&quot;text/javascript&quot;;script.async =true;script.src=&quot;
+        </script>
+<style>
+#demo-float{position:fixed;right:25px;bottom:25px;width:300px;background-color:#fff;z-index:99999;padding:15px;border-radius:6px;box-shadow:0 1px 2px rgba(0,0,0,0.1);border: 1px solid #ddd;}
+#df-logo{float:left;width:70px;height:70px;margin:0 10px 0 0}
+#rtl .df-logo{float:right;margin:0 0 0 10px}
+#demo-float h3{color:#333333;font-size:17px;font-weight:700;margin:0 0 7px;overflow: hidden;}
+#demo-float p{font-size:13px;color:#757575;line-height:1.5em;margin:0}
+#demo-float a{float: left; width: 100%; background-color: #3f5fda; font-size: 14px; font-weight: 500; color: #fff; text-align: center; line-height: 28px; margin: 15px 0 0; padding: 5px; border-radius: 3px; transition: background .17s ease;}
+#demo-float a:hover{background-color:#2980b9}
+#df-hide{float: right;top:10px;right:13px;font-size:13px;color:#333333;cursor:pointer;transition:color .17s ease}
+#rtl #df-hide{right:unset;left:13px}
+#df-hide:hover{color:#e74c3c}
+#df-logo img {width: 70px; height: 70px;}
 
-        <!-- search bar right align -->
+#demo-float {
 
-        <div class="search">
-
-             
-
-            <form action="#">
-
-                <input type="text"
-
-                    placeholder=" Search product"
-
-                    name="search">
-
-                <button>
-                     <i class="fa fa-search"
-                        style="font-size: 18px;">
-                    </i>
-                </button>
-
-            </form>
-
-        </div>
-
- </div>
- <div class="grid">
-  <div class="site">Amazon | Flipkart | Adidas | CoolWinks | fristcry | Zoomcar | Zivame | ShopClues | Zomato | Swiggy</div>
-  
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+</style><div id='demo-float'>
+<span id='df-hide'><i class='fa fa-times'/></span>
+<div id='df-logo'><img border='0' data-original-height='100' data-original-width='100' src='https://lh3.googleusercontent.com/WuTcaDLH-RNavP92MQCtnF9Vqr1hoR0k6hJAioNAyj8098Qet47X_uXMrTqfGOzhagF-8Ubjj2TK_Ft2=w768-h768-n-o-v1'/></div>
+<h3> Join Telegram Channel</h3>
+<p>Join <b>Shopanaut</b> -  Get notified on deals and offers</p>
+<a href='https://t.me/shopanaut' target='_blank'><i class='fa fa-telegram'/> Join Telegram Channel</a>
 </div>
 
-
-
- 
- 
- 
-    <footer>
-      <p>RedFlower &copy; <script>document.write(new Date().getFullYear())</script>  All Rights Reserved</p>
-
-      <a href="mailto: luceferreddy@gmail.com">Contact</a>
-      <a href="terms.html">Terms and Conditions</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="about.html">About</a>
-    </footer>
-</body>
-  <style>
-    footer{
-      height: 60px;
-      padding: 3px;
-      font-weight: 900;
-      color: white;
-      background: transparent;
-    }
-    .links{
-         position: absolute;
-         bottom: 60px;
-         background: transparent;
-         align-content: center;
-         opacity: 60%;
-         z-index: 15;
-         }
-    
-  .grid{
-    font-size: 9px;
-    padding: 1px;
-    width: 100%;
-    height: auto;
-    z-index: 40;
-    position: absolute;
-    bottom: 60px;
-    overflow: hidden;
-    background: linear-gradient(hotpink, deepskyblue);
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-  }
-  .site{
-    opacity: 45%;
-    font-weight: 900;
-    width: auto;
-    color: white;
-    text-align: center;
+<script type='text/javascript'>
+  $('#df-hide').on('click', function() {
+  document.getElementById('demo-float').style.pointerEvents = 'none' ;
   }
   
-  </style>
+  });
+</script>
 
+</body>
+  <script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
+  <style>
+    /* Style the navbar */
+    #navbar {
+    overflow: hidden;
+    background: linear-gradient(hotpink, lightpink)
+    }
+
+/* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: lightskyblue;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  #navbar a:hover{
+    background: white;
+    color: deepskyblue;
+  }
+
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+  }
+  
+  footer{
+    text-align: center;
+    background: linear-gradient(lightpink, hotpink);
+    color: white;
+    font-weight: 600;
+    font-size: 9px;
+  }
+  footer a:link, a:active, a:visited{
+    color: whitesmoke;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  .notice{
+    top: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: auto;
+    background:dodgerblue;
+   padding: 3px;
+  color:white;
+  text-align: center;
+  font-weight: 200;
+  padding-top: 3px;
+  }
+  .notice i{
+    font-size: 18px;
+    color: white;
+  }
+  .notice button{
+    background-color: pink;
+    width: 40px;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 25px;
+  }
+ </style>
+ 
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                console.log('Service worker successfully installed. Scope:', registration.scope);
+            }).catch(function(error) {
+                console.log('Service worker installation failed:', error);
+            });
+        }
+    </script>
 
 </html>
