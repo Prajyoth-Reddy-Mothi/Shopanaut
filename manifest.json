@@ -1,21 +1,21 @@
 {
   "name": "Shopanaut - Space for Smart Shopping",
-  "short_name": "Shpnaut",
+  "short_name": "Shopnaut",
   "start_url": "index.html",
   "scope": "./",
   "icons": [
     {
-      "src": "contract.png",
+      "src": "icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "contract.png",
+      "src": "icon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "theme_color": "#ff69b4",
-  "background_color": "#87cefa",
+  "background_color": "#000000",
   "display": "standalone"
 }
