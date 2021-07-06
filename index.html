@@ -34,7 +34,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <link rel="manifest" href="/manifest.json">
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  
 
     <meta charset="UTF-8">
 
@@ -68,7 +68,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <div class="notice">
 
-    Web App Comming Soon! <button><i class="fa fa-download" aria-hidden="true"></i></button>
+   <pre><p id="test"></p></pre>
+<script>
+  const date = new Date();
+  /*document.getElementById("date").innerHTML = date.getDate() + "'th of month sale";*/
+</script>
+
+    <script>
+        var quotes = ["Welcome",
+        "आपका स्वागत है",
+        "స్వాగతం",
+        "आपका स्वागत है",
+        ]
+        var index = Math.floor((Math.random() * quotes.length)); 
+        document.getElementById('test').innerHTML = quotes[index] +" to the "+ date.getDate() + "'th of savings 🔭";
+
+    </script>
 
   </div>
 
