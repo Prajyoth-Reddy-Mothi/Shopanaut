@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shopanaut.ml
+Token: 4000c34e6a4ebffe3b778da0900126f0efd2d68a1aec84bbdddb3fedb5d04a04
