@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fully customizable Google Forms - Augustus - Let's Write</title>
+  <link rel="canonical" href="https://en.letswrite.tw/custom-google-form/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <!-- customized style -->
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    html,
+    body,
+    .container,
+    .row {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .container {
+      max-width: 100%;
+    }
+
+    button {
+      font-size: 16px;
+    }
+
+    .half {
+      position: fixed;
+      margin: 0;
+      width: 50% !important;
+      height: 100%;
+    }
+
+    .bg {
+      background: url('https://picsum.photos/id/883/1920/1024/') center center;
+      background-size: cover;
+    }
+
+    .form {
+      left: 50%;
+      overflow: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    h1,
+    form {
+      width: 100%;
+    }
+
+    h1 {
+      padding-top: 16px;
+      text-align: center;
+    }
+
+    form {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 400px;
+    }
+
+    .input-group {
+      margin-bottom: 30px;
+    }
+
+    .radio-group label {
+      display: inline-block;
+    }
+
+    textarea {
+      min-height: 100px;
+    }
+
+    @media screen and (max-width: 1024px) {
+      .half {
+        position: static;
+        width: 100% !important;
+        height: auto;
+      }
+
+      .bg {
+        height: 30vh;
+      }
+
+      form {
+        padding-right: 12px;
+        padding-left: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <main class="row">
+      <!-- bg -->
+      <section class="six columns half bg"></section>
+      <!-- form -->
+      <section class="six columns half form">
+        <h1>Knowing you a little bit more</h1>
+        <form>
+          <!-- name -->
+          <div class="input-group">
+            <label for="demo_name">Name</label>
+            <input class="u-full-width" type="text" placeholder="Name" id="demo_name">
+          </div>
+          <!-- Email -->
+          <div class="input-group">
+            <label for="demo_mail">Prefered email for contact</label>
+            <input class="u-full-width" type="text" placeholder="Email" id="demo_mail">
+          </div>
+          <!-- gender -->
+          <div class="input-group">
+            <label>Gender</label>
+            <div class="radio-group row">
+              <!-- male -->
+              <div class="four columns">
+                <input type="radio" id="male" name="demo_radio" value="male" checked>
+                <label for="male">Male</label>
+              </div>
+              <!-- female -->
+              <div class="four columns">
+                <input type="radio" id="female" name="demo_radio" value="female">
+                <label for="female">Female</label>
+              </div>
+              <!-- other -->
+              <div class="four columns">
+                <input type="radio" id="other" name="demo_radio" value="other">
+                <label for="other">Other</label>
+              </div>
+            </div>
+          </div>
+          <!-- Intrests -->
+          <div class="input-group">
+            <label>Feilds of interest</label>
+            <div class="radio-group row">
+              <!-- Tech -->
+              <div class="four columns">
+                <input type="radio" id="tech" name="i_radio" value="tech" checked>
+                <label for="tech">Tech</label>
+              </div>
+              <!-- Personal Fitness -->
+              <div class="four columns">
+                <input type="radio" id="fitness" name="i_radio" value="fitness">
+                <label for="fitness">Personal growth and fitness</label>
+              </div>
+              <!-- sports -->
+              <div class="four columns">
+                <input type="radio" id="sports" name="i_radio" value="sports">
+                <label for="sports">Sports</label>
+              </div>
+              <!-- Books -->
+              <div class="four columns">
+                <input type="radio" id="books" name="i_radio" value="books">
+                <label for="books">Books and reading</label>
+              </div>
+              <!-- art -->
+              <div class="four columns">
+                <input type="radio" id="art" name="i_radio" value="art">
+                <label for="art">Arts and crafts</label>
+              </div>
+              <!-- gaming -->
+              <div class="four columns">
+                <input type="radio" id="gaming" name="i_radio" value="gaming">
+                <label for="gaming">Gaming</label>
+              </div>
+              <!-- food -->
+              <div class="four columns">
+                <input type="radio" id="food" name="i_radio" value="food">
+                <label for="food">Food and Cooking</label>
+              </div>
+              <!-- movies -->
+              <div class="four columns">
+                <input type="radio" id="movies" name="i_radio" value="movies">
+                <label for="movies">Movies and Music</label>
+              </div>
+              <!-- blogs -->
+              <div class="four columns">
+                <input type="radio" id="blogs" name="i_radio" value="blogs">
+                <label for="blogs">Journals and Blogs</label>
+              </div>
+              <!-- socialmedia -->
+              <div class="four columns">
+                <input type="radio" id="socialM" name="i_radio" value="socialM">
+                <label for="socialM">Social Media</label>
+              </div>
+              <!-- other -->
+              <div class="four columns">
+                <input type="radio" id="other" name="i_radio" value="other">
+                <label for="other">Other</label>
+              </div>
+            </div>
+          </div>
+          <!--Age-->
+          <div class="input-group">
+            <label>Age</label>
+            <div class="radio-group row">
+              <!-- 18 below -->
+              <div class="four columns">
+                <input type="radio" id="18nb" name="a_radio" value="18nb" checked>
+                <label for="18nb">18 and below</label>
+              </div>
+              <!-- 19t45 -->
+              <div class="four columns">
+                <input type="radio" id="19t45" name="a_radio" value="19t45">
+                <label for="19t45">19-45</label>
+              </div>
+              <!-- above45 -->
+              <div class="four columns">
+                <input type="radio" id="other" name="a_radio" value="above45">
+                <label for="above45">Above 45</label>
+              </div>
+            </div>
+          </div>
+          
+          <button type="button" id="submit" class="button-primary u-full-width">Continue</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+      $('#submit').on('click', function() {
+
+        // name
+        var name = $('#demo_name').val() || 'no set';
+
+      
+      //email
+      var mail = $('#demo_mail').val() || 'no set';
+      
+        // gender
+        var gender = function() {
+          var v;
+          $('[name="demo_radio"]').each(function() {
+            if ($(this).prop('checked') === true) v = $(this).val();
+          });
+          return v;
+        };
+        
+        //intrests
+        var intrest = function() {
+          var intre;
+          $('[name="i_radio"]').each(function() {
+            if ($(this).prop('checked') === true) intre = $(this).val();
+          });
+          return intre;
+        };
+        
+      
+     
+        
+        // age
+        var age = function() {
+          var a;
+          $('[name="a_radio"]').each(function() {
+            if ($(this).prop('checked') === true) a = $(this).val();
+          });
+          return a;
+        };
+
+        // post
+        var data = {
+          'entry.2045366676': name,
+          'entry.2059208540': mail,
+          'entry.804446387_sentinel': gender(),
+          'entry.1249634490_sentinel': intrest(),
+          'entry.1023964862_sentinel': age(), 
+        };
+        $.ajax({
+          type: 'POST',
+          url: 'https://docs.google.com/forms/d/e/1FAIpQLScyLN53iwVfG07Nx8KgXiLR9eBopkQFrLABT_ByA8Nhtjwx4Q/formResponse',
+          data: data,
+          contentType: 'application/json',
+          dataType: 'jsonp',
+          complete: function() {
+            alert('send success');
+          }
+        });
+
+      });
+    });
+  </script>
+</body>
+
+</html>
