@@ -295,10 +295,10 @@ function onClick(element) {
 swalWithBootstrapButtons.fire({
   title: 'Sign-up to continue',
   text: "Signing up helps us to deliver the product much better",
-  icon: 'warning',
+  icon: 'info',
   showCancelButton: true,
-  confirmButtonText: 'Yes, delete it!',
-  cancelButtonText: 'No, cancel!',
+  confirmButtonText: 'Sign-up',
+  cancelButtonText: 'No-thanks',
   reverseButtons: true
 }).then((result) => {
   if (result.isConfirmed) {
@@ -307,6 +307,7 @@ swalWithBootstrapButtons.fire({
       'Sucessfully redirecting to signup page.',
       'success'
     )
+    window.location.href="tnc.html";
   } else if (
     /* Read more about handling dismissals below */
     result.dismiss === Swal.DismissReason.cancel
