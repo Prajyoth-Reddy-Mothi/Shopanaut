@@ -281,12 +281,45 @@ function onClick(element) {
       }
 
 </script>
-<script data-ad-client="ca-pub-5081913985090996" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<script src="https://my.hellobar.com/c362a7590f35332d1310217b127195b3a8d12941.js" type="text/javascript" charset="utf-8" async="async"> </script>
- 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  const swalWithBootstrapButtons = Swal.mixin({
+  customClass: {
+    confirmButton: 'btn btn-success',
+    cancelButton: 'btn btn-danger'
+  },
+  buttonsStyling: false
+})
+
+swalWithBootstrapButtons.fire({
+  title: 'Sign-up to continue',
+  text: "Signing up helps us to deliver the product much better",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonText: 'Yes, delete it!',
+  cancelButtonText: 'No, cancel!',
+  reverseButtons: true
+}).then((result) => {
+  if (result.isConfirmed) {
+    swalWithBootstrapButtons.fire(
+      'New user Sign-up',
+      'Sucessfully redirecting to signup page.',
+      'success'
+    )
+  } else if (
+    /* Read more about handling dismissals below */
+    result.dismiss === Swal.DismissReason.cancel
+  ) {
+    swalWithBootstrapButtons.fire(
+      'Cancelled',
+      'You will be asked again some time later.',
+      'error'
+    )
+  }
+})  
+</script>
  
 </body>
 
 </html>
-
