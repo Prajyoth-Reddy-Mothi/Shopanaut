@@ -283,7 +283,12 @@ function onClick(element) {
 </script>
 
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script>
+  var user = localStorage.getItem('checkcalfid'); 
+if (user== 'true') { // Check if it's equal to the string true
+    console.log("Hello smart user")
+} else {
   const swalWithBootstrapButtons = Swal.mixin({
   customClass: {
     confirmButton: 'btn btn-success',
@@ -308,6 +313,7 @@ swalWithBootstrapButtons.fire({
       'success'
     )
     window.location.href="signup.html";
+    localStorage.setItem('isSignup','true');
   } else if (
     /* Read more about handling dismissals below */
     result.dismiss === Swal.DismissReason.cancel
@@ -317,9 +323,15 @@ swalWithBootstrapButtons.fire({
       'You will be asked again some time later.',
       'error'
     )
+    localStorage.setItem('isSignup','false');
   }
-})  
+})
+    
+}
 </script>
+
+
+
  
 </body>
 
