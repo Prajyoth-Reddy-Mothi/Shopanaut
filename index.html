@@ -260,7 +260,7 @@ function onClick(element) {
 
    </script>
 
-<script type='text/javascript'>(function() {var script=document.createElement(&quot;script&quot;);script.type=&quot;text/javascript&quot;;script.async =true;script.src=&quot;
+<script type='text/javascript'>(function() {var script=document.createElement('script');script.type='text/javascript';script.async =true;script.src='myscript.js';
 
 </script>
 
@@ -281,55 +281,6 @@ function onClick(element) {
       }
 
 </script>
-
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-<script>
-  var user = localStorage.getItem('checkcalfid'); 
-if (user== 'true') { // Check if it's equal to the string true
-    console.log("Hello smart user")
-} else {
-  const swalWithBootstrapButtons = Swal.mixin({
-  customClass: {
-    confirmButton: 'btn btn-success',
-    cancelButton: 'btn btn-danger'
-  },
-  buttonsStyling: false
-})
-
-swalWithBootstrapButtons.fire({
-  title: 'Sign-up to continue',
-  text: "Signing up helps us to deliver the product much better",
-  icon: 'info',
-  showCancelButton: true,
-  confirmButtonText: 'Sign-up',
-  cancelButtonText: 'No-thanks',
-  reverseButtons: true
-}).then((result) => {
-  if (result.isConfirmed) {
-    swalWithBootstrapButtons.fire(
-      'New user Sign-up',
-      'Sucessfully redirecting to signup page.',
-      'success'
-    )
-    window.location.href="signup.html";
-    localStorage.setItem('isSignup','true');
-  } else if (
-    /* Read more about handling dismissals below */
-    result.dismiss === Swal.DismissReason.cancel
-  ) {
-    swalWithBootstrapButtons.fire(
-      'Cancelled',
-      'You will be asked again some time later.',
-      'error'
-    )
-    localStorage.setItem('isSignup','false');
-  }
-})
-    
-}
-</script>
-
 
 
  
