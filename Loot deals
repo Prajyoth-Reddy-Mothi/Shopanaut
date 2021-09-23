@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Loot deals today</title>
+
+    <meta name="description" content="Online Shopping Offers Deal Of The Day Amazon &amp; Flipkart. Get Latest Offers Of 2021 All On A Single Page. Updated In Realtime.">
+
+    <meta name="keywords" content="Online Shopping Offers, Coupons, Loot, Coupon codes, Amazon dicounts, Flipkart discounts, Amazon loot, Flipkart loot, Mobile disconts, TV dicounts, Fridge disconts, laptop disconts, Recharge Deals &amp; Mobile Price List - IndiaDesire">
+
+    <meta name="title" content="Loot Deals: Best Online Shopping Deals, Latest Online Offers Deal Of The Day Amazon &amp; Flipkart">
+
+    <meta property="og:title" content="Loot Deals: Best Online Shopping Deals, Latest Online Offers Deal Of The Day Amazon &amp; Flipkart">
+
+    <meta property="og:description" content="Online Shopping Offers Deal Of The Day Amazon &amp; Flipkart. Get Latest Offers Of 2021 All On A Single Page. Updated In Realtime.">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+
+  
+
+  </head>
+
+ <body> <div class="alert alert-primary alert-dismissible fade show announcement-top-bar" role="alert"> <p class="d-none d-md-block">Download <ispan>Shopanaut</ispan> App from Playstore now! (｡◕‿◕｡)➜<a href="https://play.google.com/store/apps/details?id=xyz.appmaker.hhtimy" target="_blank" class="btn btn-primary">Go to Playstore</a></p> <p class="d-block d-md-none">Download <ispan>Shopanaut</ispan> App from Playstore now! <a href="https://play.google.com/store/apps/details?id=xyz.appmaker.hhtimy" target="_blank">Go to Playstore (｡◕‿◕｡)➜</a></p> <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span> </button> </div> <section> <!-- !PAGE CONTENT! --> <h2>Shopanaut</h2> <iframe src='https://inrdeals.com/embed/deals?user=luc430941715' width='100%' height='1140' frameborder='0' allowTransparency='true'> </iframe><!-- End page content --> </section> </div> <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work --> <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> <style> h2{ color: limegreen; font-size: 80px; text-shadow: 3px 3px 9px #7BFF62; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; left: 0; right: 0; top: 69; width: 100%; text-align: center; position: fixed; z-index: 2; } ispan{ color: orange; } section { padding: 20px;}body{ background: orange;}.announcement-top-bar { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; position: sticky; top: 0; font-size: 21px;}.announcement-top-bar p { margin: 0;}.announcement-top-bar.alert-dismissible .close { top: 50%; transform: translateY(-55%);} </style> </body></html>
